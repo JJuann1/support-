@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Técnico</title>
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="pagina.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .heder {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .h2 {
+            margin: 0;
+        }
+
+        .logo_ut {
+            width: 100px;
+        }
+
+        .contenedor {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .cuerpo {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .preguntas {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .preguntas h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .preguntas a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .preguntas a:hover {
+            text-decoration: underline;
+        }
+
+        .derecha {
+            flex: 1;
+        }
+
+        .bg_color {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .corre_duda {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        .lgos_derecha {
+            margin-top: 10px;
+        }
+
+        .lgos_derecha img {
+            width: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="heder">
+        <div class="volver">
+            <span class="btn">Botón</span>
+        </div>
+        <h2 class="h2">Soporte</h2>
+        <img src="img/logo__ut_cancun.png" alt="logo__ut_cancun" class="logo_ut">
+    </header>
+
+    <section class="contenedor cuerpo">
+        <div class="preguntas">
+            <h2>Preguntas frecuentes</h2>
+            <h2><a href="http://127.0.0.1:5500/pagina2.html">• ¿Cuánto tiempo tengo para las preguntas?</a></h2>
+            <h2><a href="http://127.0.0.1:5500/servicio.html">• ¿Qué hago si aún no me llega el correo de aceptación?</a></h2>
+            <h2><a href="http://127.0.0.1:5500/pagina3.html">• ¿Me puedo cambiar de extracurricular estando en uno?</a></h2>
+            <h2><a href="http://127.0.0.1:5500/pagina4.html">• ¿Qué hago si se me cerró el cuestionario?</a></h2>
+            <h2><a href="http://127.0.0.1:5500/pagina5.html">• ¿Cuántos cuatrimestres son obligatorios estar en un extracurricular?</a></h2>
+            <h2><a href="http://127.0.0.1:5500/pagina6.html">• ¿Si trabajo, tengo permitido faltar?</a></h2>
+        </div>
+
+        <div class="derecha">
+            <h2>Soporte</h2>
+            <h2><a href="http://127.0.0.1:5500/formulario.html">Dudas del sistema</a></h2>
+        </div>
+    </section>
+
+    <footer class="bg_color">
+        <div class="barra_baja contenedor">
+            <h2 class="corre_duda">Si tu pregunta no está en las preguntas frecuentes, puedes mandar un correo a:
+                <a href="mailto:prueba@utcancun.edu.mx">prueba@utcancun.edu.mx</a>
+            </h2>
+            <div class="lgos_derecha">
+                <a href="http://www.utcancun.edu.mx"><img src="img/google.svg" alt="Google"></a>
+                <a href="https://www.facebook.com/UTdeCancun/reels/"><img src="img/icons8-facebook-nuevo.svg" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

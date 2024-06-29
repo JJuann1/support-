@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Color de fondo general */
+}
+
+/* Estilos del header */
+.heder {
+    background-color: #4CAF50; /* Color de fondo del encabezado */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_ut {
+    width: 100px; /* Ajustar tamaño del logo según necesidad */
+}
+
+/* Estilos del formulario */
+.cuerpo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cuerpo h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos del footer */
+.bg_color {
+    background-color: #4CAF50; /* Color de fondo del footer (verde) */
+    color: white;
+    padding: 20px 0;
+}
+
+.barra_baja {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lgos_derecha img {
+    width: 30px; /* Ajustar tamaño de los iconos según necesidad */
+    margin-left: 10px;
+}
